@@ -76,7 +76,7 @@ class AddTodo extends React.Component {
                 <div className="input-group">
                     <input type="text" className="form-control" value={this.state.description} onChange={(e) => this.setState({description: e.target.value})} />
                     <span className="input-group-btn">
-                        <button className="btn btn-default" type="button" onClick={() => this.onClick()}>Add Todo</button>
+                        <button className="btn btn-success" type="button" onClick={() => this.onClick()}>Add Todo</button>
                     </span>
                 </div>
             </div>

@@ -4,6 +4,18 @@
 img {
     width: 100%;
 }
+body {
+    background-color: #BEBBBB;
+}
 .done {
     text-decoration: line-through;
 }
+.btn {
+    background-color: #DB8A74;
+}
+#complete {
+    background-color: #2F243A;
+    padding: 20px;
+    color: white;
+}
+

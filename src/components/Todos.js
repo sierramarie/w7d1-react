@@ -63,10 +63,10 @@ class Todos extends React.Component {
             <ul className="list-group">
                 {todos}
             </ul>
-        </Layout>
         <span className="input-group-btn">
-        <button className="btn btn-default" type="button" onClick={() => browserHistory.push('/completed')}>View Completed Todos</button>
+            <button className="btn btn-default btn-block" type="button" id="complete" onClick={() => browserHistory.push('/completed')}>View Completed Todos</button>
         </span>
+        </Layout>
         </div>
     }
 }
