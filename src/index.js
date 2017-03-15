@@ -3,11 +3,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // Load components
-import App from './components/App';
+import Routes from './Routes';
 import './index.css';
 
-
+// Render root component
 ReactDOM.render(
-  <App />,
-  document.getElementById('root')
+    <Routes />,
+    document.getElementById('root')
 );
